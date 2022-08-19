@@ -19,6 +19,6 @@ python3 main.py
 
 | 19.08.2020 | 
 |------------|
-|  <img src="https://github.com/spnya/wallpaper-maker/blob/main/png.png"> |
+|  <img src="https://github.com/spnya/wallpaper-maker/blob/main/images/img1.png> |
 
 > Not so good.... yet ;)

@@ -1,23 +1,32 @@
 from PIL import Image, ImageDraw
 from random import randint
 
-hight = 700
-width = 500
+width = 1980
+hight = 1080
 
-img = Image.new('RGB', (hight, width), color = (230, 235, 255))
+img = Image.new('RGB', (width, hight), color = (230, 235, 255))
 
 draw = ImageDraw.Draw(img)
 
-n = randint(200, 400)
+n = 30
 
 dots = []
 
 for i in range(n):
-    x = randint(0, hight)
-    y = randint(0, width)
-    dots.append((x, y))
+    x = randint(0, width)
+    y = randint(0, hight)
+    dots.append({
+        'x': x,
+        'y': y,
+        'links': []
+    })
 
-for (x, y) in dots:
-    draw.point((x, y), 'black')    
+for i in dots:
+    draw.point((i['x'], i['y']), 'black')    
 
-img.save('png.png')
+for i in dots:
+    for j in dots:
+        if (randint(1, 4) == 1):
+            draw.line((i['x'], i['y'], j['x'], j['y']), fill=1)
+
+img.save('./images/img1.png')
