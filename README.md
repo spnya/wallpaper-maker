@@ -15,3 +15,10 @@ py main.py
 ```
 python3 main.py
 ```
+### Result so far
+
+| 19.08.2020 | 
+|------------|
+|  <img src="https://github.com/spnya/wallpaper-maker/blob/main/png.png"> |
+
+> Not so good.... yet ;)
