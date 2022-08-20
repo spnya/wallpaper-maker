@@ -17,8 +17,8 @@ python3 main.py
 ```
 ### Result so far
 
-| 19.08.2020 | 
-|------------|
-|  <img src="https://github.com/spnya/wallpaper-maker/blob/main/images/img1.png"> |
+| 19.08.2020 | 21.08.2020 | 
+|------------|------------
+|  <img width="250px" higth="200px" src="https://github.com/spnya/wallpaper-maker/blob/main/images/img1.png"> | <img width="250px" higth="200px"  src="https://github.com/spnya/wallpaper-maker/blob/main/images/img2.png"> |
 
 > Not so good.... yet ;)
